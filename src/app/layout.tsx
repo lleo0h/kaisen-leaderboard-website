@@ -1,8 +1,13 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import localFont from "next/font/local"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
+
+export const minecraft = localFont({
+  src: "../fonts/Minecraft.otf"
+})
 
 export const metadata: Metadata = {
   title: "Kaisen Leaderboard",

@@ -27,4 +27,5 @@ body {
 
 .background {
   background: #223437;
+  background-attachment: fixed;
 }
